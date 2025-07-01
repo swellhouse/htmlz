@@ -1,0 +1,94 @@
+/* s t y l i s t y c */
+
+ * {
+    box-sizing: border-box;
+    font-family: monospace;
+ }
+ body {
+   text-align: center;
+   font-size: 1em;
+   background-color: rgb(19, 135, 108);
+ }
+
+ h1 {
+   margin-top: 50px;
+   margin-bottom: 50px; 
+ }
+ p {
+   font-size: 24px;
+ }
+ .buttons a {
+   display: inline-block;
+   margin-left: 20px;
+   margin-bottom: 10px;
+   color: black;
+   background-color: antiquewhite;
+   text-decoration: none;
+   border: none;
+   padding: 5px;
+   border-radius: 5px;
+   transition: background-color 0.3s ease;
+   box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.3);
+ }
+ .buttons a:hover{
+   color: antiquewhite;
+   background-color: black;
+   
+ }
+
+ .booking {
+   font-weight: bold;
+   font-size: 30px;
+   margin-top: 40px;
+   transition: color 0.3s ease;
+ }
+
+ .booking a {
+   font-family: 'Times New Roman', Times, serif;
+   font-weight: lighter;
+   color: whitesmoke;
+ }
+ .booking a:hover{
+    color: crimson;
+ }
+
+ .logo {
+  filter: drop-shadow(15px 10px 10px rgba(0, 0, 0, 0.5));
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 75%; 
+  height: auto; 
+ }
+
+ .makers{
+   margin: 20px;
+   max-width: 100%;
+   height: auto;
+   border-radius: 15px;   
+   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+
+ }
+
+.music {
+  display: flex;              /* enable flex layout */
+  justify-content: center;    /* center items horizontally */
+  flex-wrap: nowrap;          /* keep all items in one line, no wrapping */
+  gap: 20px;                  /* space between images */
+  padding: 30px 20px;
+}
+
+.music a {
+  flex: 0 0 auto;             /* fixed width, no shrinking/growing */
+  width: 30vw;               /* width = 30% of viewport width (adjustable) */
+  color: black;
+  text-decoration: none;
+}
+
+ .music a img {
+    filter: drop-shadow(15px 10px 10px rgba(0, 0, 0, 0.5));
+    width: 80%;               /* fill the anchor width */
+  height: auto;              /* keep aspect ratio */
+  display: block;
+
+ }
